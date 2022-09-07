@@ -1,0 +1,7 @@
+<prefab version="1.1.0">
+	<group name="triangle_complete__" pos="-61.6 0.0 47.3">
+		<instance pos="-1.0 43.2 -1.6" rot="0.0 0.0 0.0" file="MOD/triangle__.xml"/>
+		<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+	</group>
+</prefab>
+

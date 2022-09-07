@@ -1,0 +1,21 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/tunnel__.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<body name="tunnel_body___" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="tunnel___" pos="-6.6 0.0 -2.3" rot="0.0 0.0 0.0" strength="10" collide="true" prop="true"/>
+			<voxbox name="platform" pos="-6.6 0.0 -2.3" prop="false" size="132 4 47" material="wood" color="0.93 0.76 0.37">
+				<voxbox name="wall" pos="0.0 0.0 -0.4" prop="false" size="132 16 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_left" pos="0.0 1.6 -0.4" prop="false" size="20 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_middle" pos="5.4 1.6 -0.4" prop="false" size="31 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_right" pos="11.2 1.6 -0.4" prop="false" size="20 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="roof_edge" pos="0.0 3.6 -0.4" rot="45.0 0.0 0.0" prop="false" size="132 23 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="roof" pos="0.0 4.8 1.2" prop="false" size="132 4 23" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_right" pos="11.2 1.6 4.7" prop="false" size="20 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_middle" pos="5.4 1.6 4.7" prop="false" size="31 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall_left" pos="0.0 1.6 4.7" prop="false" size="20 20 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="wall" pos="0.0 0.0 4.7" prop="false" size="132 16 4" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="roof_edge" pos="13.2 3.6 5.1" rot="45.0 -180.0 0.0" prop="false" size="132 23 4" material="wood" color="1.0 0.59 0.14"/>
+			</voxbox>
+		</body>
+	</group>
+</prefab>
+

@@ -1,0 +1,7 @@
+<prefab version="1.1.0">
+	<group name="edged_rectangle_complete_" pos="-52.1 0.0 38.8">
+		<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+		<instance pos="0.0 43.0 0.0" rot="0.0 0.0 0.0" file="MOD/edged_rectangle__.xml"/>
+	</group>
+</prefab>
+

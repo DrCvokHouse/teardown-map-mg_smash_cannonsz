@@ -1,0 +1,14 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/rectangle_little__.xml" pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0">
+		<body name="rectangle_platform_body___" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="rectangle_platform___" pos="-4.4 0.2 -2.6" rot="0.0 0.0 0.0" strength="10" collide="true" prop="true"/>
+			<voxbox name="platform" pos="-4.4 0.2 -2.6" prop="false" size="88 4 51" material="wood" color="0.93 0.76 0.37">
+				<voxbox name="upper" pos="0.0 -0.2 5.1" prop="false" size="88 8 3" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right" pos="-0.6 -0.2 -0.3" prop="false" size="6 8 57" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="bottom" pos="0.0 -0.2 -0.3" prop="false" size="88 8 3" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left" pos="8.8 -0.2 -0.3" prop="false" size="6 8 57" material="wood" color="1.0 0.59 0.14"/>
+			</voxbox>
+		</body>
+	</group>
+</prefab>
+

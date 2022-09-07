@@ -1,0 +1,12 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/support__.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<body name="support_compound_body__" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="support_compound__" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" collide="true" prop="true">
+				<voxbox name="top" pos="-1.2 37.0 -1.0" prop="false" size="20 62 20"/>
+				<voxbox name="middle" pos="-0.7 6.2 -0.5" prop="false" size="10 308 10"/>
+				<voxbox name="bottom" pos="-1.5 0.0 -1.4" prop="false" size="29 62 28"/>
+			</compound>
+		</body>
+	</group>
+</prefab>
+

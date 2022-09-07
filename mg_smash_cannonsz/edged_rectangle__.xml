@@ -1,0 +1,21 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/edged_rectangle__.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<body name="rectangle_big_body___" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="rectangle_big___" pos="-2.3 0.0 -5.9" rot="0.0 0.0 0.0" strength="10" collide="true" prop="true"/>
+			<group name="platforms" pos="0.0 0.0 0.0">
+				<voxbox name="platform" pos="-1.5 0.2 -2.5" prop="false" size="30 4 50" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 -3.5" prop="false" size="30 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 2.5" prop="false" size="30 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 -4.5" prop="false" size="20 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 3.5" prop="false" size="20 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 -5.5" prop="false" size="10 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform" pos="-1.5 0.2 4.5" prop="false" size="10 4 10" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="right" pos="-2.3 0.0 -6.7" prop="false" size="8 8 134" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left" pos="1.5 0.0 -2.8" prop="false" size="8 8 56" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="upper" pos="-2.2 0.0 -6.1" rot="0.0 45.0 0.0" prop="false" size="8 8 56" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="bottom" pos="-1.6 0.0 6.7" rot="0.0 135.0 0.0" prop="false" size="8 8 56" material="wood" color="1.0 0.59 0.14"/>
+			</group>
+		</body>
+	</group>
+</prefab>
+

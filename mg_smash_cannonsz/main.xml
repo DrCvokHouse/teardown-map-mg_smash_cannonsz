@@ -1,0 +1,85 @@
+<scene version="1.1.0">
+	<group name="Map__" pos="0.0 0.0 0.0">
+		<group name="Templates___">
+			<group name="platforms_instances" pos="70.6 21.4 -23.6" layer="no_include">
+				<instance pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0" file="MOD/square__.xml"/>
+				<instance pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0" file="MOD/rectangle_little__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/rectangle_big__.xml"/>
+				<instance pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0" file="MOD/zig_zag__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/tunnel__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/edged_rectangle__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/triangle__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+			</group>
+			<group name="platforms_instances_complets" pos="68.7 2.0 16.3" layer="no_include">
+				<instance pos="0.0 0.0 36.8" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+				<instance pos="0.0 0.0 25.5" rot="0.0 0.0 0.0" file="MOD/rectangle_little_complete__.xml"/>
+				<instance pos="0.0 0.0 12.5" rot="0.0 0.0 0.0" file="MOD/rectangle_big_complete__.xml"/>
+				<instance pos="0.0 0.0 -3.8" rot="0.0 0.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+				<instance pos="0.0 0.0 -18.2" rot="0.0 0.0 0.0" file="MOD/tunnel_complete__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/edged_rectangle_complete__.xml"/>
+				<instance pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/triangle_complete_.xml"/>
+			</group>
+		</group>
+		<spawnpoint name="spawn__" pos="0.0 46.9 45.2" rot="0.0 180.0 0.0"/>
+		<group name="area__" pos="0.0 2.0 0.0">
+			<group name="ground__" pos="0.0 -1.0 0.0">
+				<voxbox name="ground_destructible__" pos="-85.0 0.5 -73.5" size="1700 5 1470" material="dirt" color="0.57 0.35 0.0"/>
+				<voxbox name="ground_solid__" pos="-85.0 0.0 -73.5" size="1700 5 1470" material="rock" color="0.22 0.19 0.15"/>
+			</group>
+			<boundary pos="0.0 0.0 0.0" padleft="5">
+				<vertex pos="-84.8 -73.6"/>
+				<vertex pos="84.5 -73.4"/>
+				<vertex pos="85.1 73.0"/>
+				<vertex pos="-85.0 74.2"/>
+			</boundary>
+			<group name="platforms__" pos="0.0 0.0 0.0">
+				<instance pos="-9.0 0.0 -10.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+				<group pos="0.0 0.0 18.0">
+					<instance pos="-22.0 0.0 -29.0" rot="0.0 -90.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="-35.0 0.0 -28.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="-35.0 0.0 -16.0" rot="0.0 90.0 0.0" file="MOD/tunnel_complete__.xml"/>
+					<instance pos="-35.0 0.0 -4.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="-35.0 0.0 8.0" rot="0.0 90.0 0.0" file="MOD/tunnel_complete__.xml"/>
+					<instance pos="-35.0 0.0 20.0" rot="0.0 90.0 0.0" file="MOD/rectangle_little_complete__.xml"/>
+					<instance pos="-27.5 0.0 29.5" rot="0.0 90.0 0.0" file="MOD/rectangle_big_complete__.xml"/>
+					<instance pos="-14.0 0.0 29.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="-16.0 0.0 15.0" rot="0.0 0.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="-16.0 0.0 4.0" rot="0.0 90.0 0.0" file="MOD/triangle_complete_.xml"/>
+					<instance pos="-10.0 0.0 -3.0" rot="0.0 45.0 0.0" file="MOD/tunnel_complete__.xml"/>
+					<instance pos="-0.0 0.0 -19.5" rot="0.0 0.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="0.0 0.0 28.0" rot="0.0 -90.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="0.0 0.0 -9.0" rot="0.0 -90.0 0.0" file="MOD/edged_rectangle_complete__.xml"/>
+					<instance pos="9.0 0.0 -28.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="22.0 0.0 -29.0" rot="0.0 -90.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="35.0 0.0 -28.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="35.0 0.0 -16.0" rot="0.0 90.0 0.0" file="MOD/tunnel_complete__.xml"/>
+					<instance pos="35.0 0.0 -4.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="35.0 0.0 8.0" rot="0.0 90.0 0.0" file="MOD/tunnel_complete__.xml"/>
+					<instance pos="35.0 0.0 20.0" rot="0.0 90.0 0.0" file="MOD/rectangle_little_complete__.xml"/>
+					<instance pos="27.5 0.0 29.5" rot="0.0 90.0 0.0" file="MOD/rectangle_big_complete__.xml"/>
+					<instance pos="14.0 0.0 29.0" rot="0.0 0.0 0.0" file="MOD/square_complete__.xml"/>
+					<instance pos="16.0 0.0 15.0" rot="0.0 180.0 0.0" file="MOD/zig_zag_complete__.xml"/>
+					<instance pos="17.0 0.0 4.0" rot="0.0 -50.0 0.0" file="MOD/triangle_complete_.xml"/>
+					<instance pos="10.0 0.0 -3.0" rot="0.0 -45.0 0.0" file="MOD/tunnel_complete__.xml"/>
+				</group>
+			</group>
+			<group name="cannos__">
+				<instance pos="0.0 51.8 -40.3" file="MOD/canon_test_1__.xml"/>
+				<instance pos="15.1 51.8 -40.3" file="MOD/canon_test_1__.xml"/>
+				<instance pos="44.8 51.8 -40.3" file="MOD/canon_test_1__.xml"/>
+				<instance pos="-24.6 51.8 -40.3" file="MOD/canon_test_1__.xml"/>
+			</group>
+			<group pos="0.0 -0.1 0.0">
+				<location tags="boundsMax" pos="-42.4 50.8 -22.5"/>
+				<location tags="boundsMin" pos="51.7 27.5 55.2"/>
+			</group>
+		</group>
+		<group name="tests">
+			<voxbox pos="-85.1 1.5 -73.6" size="1 1 1" color="1.0 0.0 0.0"/>
+			<voxbox pos="84.9 80.0 73.4" size="1 1 1" color="1.0 0.0 0.0"/>
+		</group>
+	</group>
+	<script file="MOD/Scripts/Test.lua"/>
+</scene>
+

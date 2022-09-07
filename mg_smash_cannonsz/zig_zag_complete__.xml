@@ -1,0 +1,8 @@
+<prefab version="1.1.0">
+	<group name="zig_zag_complete__" pos="0.0 0.0 -3.8" rot="0.0 0.0 0.0">
+		<instance pos="-1.0 43.0 0.0" rot="0.0 0.0 0.0" file="MOD/zig_zag__.xml"/>
+		<instance pos="0.0 0.0 -3.5" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+		<instance pos="0.0 0.0 3.5" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+	</group>
+</prefab>
+

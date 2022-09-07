@@ -1,0 +1,24 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/zig_zag__.xml" pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0">
+		<body name="rectangle_big_body___" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="rectangle_big___" pos="-3.7 0.2 -6.7" rot="0.0 0.0 0.0" strength="10" collide="true" prop="true"/>
+			<group name="platform_group" pos="-1.0 0.2 -8.4">
+				<voxbox name="platform_a_" pos="0.0 0.0 11.7" size="40 4 34" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform_b_" pos="-2.0 0.0 8.4" rot="0.0 30.0 0.0" size="35 4 60" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform_c_" pos="1.0 0.0 3.2" rot="0.0 -30.0 0.0" size="35 4 60" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="platform_d_" pos="0.0 0.0 1.7" size="40 4 34" material="wood" color="0.93 0.76 0.37"/>
+				<voxbox name="upper" pos="0.0 -0.2 15.1" prop="false" size="40 8 8" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left_a" pos="4.0 -0.2 11.7" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right_a" pos="-0.8 -0.2 11.7" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left_b" pos="2.0 -0.2 8.5" rot="0.0 30.0 0.0" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right_b" pos="-2.8 -0.2 8.5" rot="0.0 30.0 0.0" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="bottom" pos="0.0 -0.2 0.9" prop="false" size="40 8 8" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left_d" pos="4.0 -0.2 0.9" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right_d" pos="-0.8 -0.2 0.9" prop="false" size="8 8 42" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left_c" pos="4.1 -0.2 4.7" rot="0.0 -30.0 0.0" prop="false" size="8 8 43" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right_c" pos="-0.7 -0.2 4.7" rot="0.0 -30.0 0.0" prop="false" size="8 8 43" material="wood" color="1.0 0.59 0.14"/>
+			</group>
+		</body>
+	</group>
+</prefab>
+

@@ -1,0 +1,8 @@
+<prefab version="1.1.0">
+	<group name="tunnel_complete__" pos="0.0 0.0 -18.2">
+		<instance pos="0.0 43.2 0.0" rot="0.0 0.0 0.0" file="MOD/tunnel__.xml"/>
+		<instance pos="3.3 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+		<instance pos="-3.5 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/support__.xml"/>
+	</group>
+</prefab>
+

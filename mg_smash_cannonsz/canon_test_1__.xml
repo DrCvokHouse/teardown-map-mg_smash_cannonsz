@@ -1,0 +1,16 @@
+<prefab version="1.1.0">
+	<group name="cannon_test__" pos="0.0 0.5 0.0">
+		<body name="cannon_11" tags="cannon_1" pos="0.0 0.0 0.0" dynamic="false">
+			<compound pos="0.0 0.0 0.0" collide="false">
+				<voxbox name="bottom" pos="-1.5 0.0 4.9" rot="0.0 90.0 0.0" size="100 1 30" color="1 1 1 0.5"/>
+				<voxbox name="top" pos="-1.5 3.0 4.9" rot="0.0 90.0 0.0" size="100 1 30" color="1 1 1 0.5"/>
+				<voxbox name="left" pos="1.5 0.0 4.9" rot="0.0 90.0 0.0" size="100 30 1" color="1 1 1 0.5"/>
+				<voxbox name="right" pos="-1.5 0.0 4.9" rot="0.0 90.0 0.0" size="100 30 1" color="1 1 1 0.5"/>
+			</compound>
+			<body tags="cannon_1_camera_place" pos="0.0 1.5 4.9" rot="0.0 0.0 0.0" dynamic="false"/>
+			<body name="shoot_place_1" tags="shoot_place_1" pos="0.0 1.5 2.9" rot="0.0 0.0 0.0" dynamic="false"/>
+			<body name="shoot_place_2" tags="shoot_place_2" pos="0.0 1.5 3.0" rot="0.0 0.0 0.0" dynamic="false"/>
+		</body>
+	</group>
+</prefab>
+

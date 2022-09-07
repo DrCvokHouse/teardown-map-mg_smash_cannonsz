@@ -1,0 +1,14 @@
+<prefab version="1.1.0">
+	<group name="instance=MOD/square__.xml" pos="0.0 0.0 -6.5" rot="0.0 0.0 0.0">
+		<body name="square_platform_body__" tags="target_platform" pos="0.0 0.0 0.0" dynamic="true">
+			<compound name="square_platform___" pos="-4.4 0.0 -4.2" rot="0.0 0.0 0.0" strength="10" collide="true" prop="true"/>
+			<voxbox name="platform" pos="-4.4 0.0 -4.2" prop="false" size="88 4 85" material="wood" color="0.93 0.76 0.37">
+				<voxbox name="upper" pos="0.0 0.0 -0.6" prop="false" size="88 8 6" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="right" pos="8.8 0.0 -0.6" prop="false" size="6 8 96" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="bottom" pos="0.0 0.0 8.4" prop="false" size="88 8 6" material="wood" color="1.0 0.59 0.14"/>
+				<voxbox name="left" pos="-0.6 0.0 -0.6" prop="false" size="6 8 96" material="wood" color="1.0 0.59 0.14"/>
+			</voxbox>
+		</body>
+	</group>
+</prefab>
+
